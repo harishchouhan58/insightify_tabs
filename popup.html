@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Insightify Tabs</title>
+  <style>
+  	.insightify-wrapper {
+    width: 300px;
+}
+.insightify-wrapper h1 {
+    font-size: 25px;
+    line-height: 35px;
+}
+.insightify-wrapper p.subtitle {
+    font-weight: 600;
+    margin: auto;
+    font-size: 15px;
+    line-height: 25px;
+    color: #1f69d2;
+}
+.insightify-wrapper #summarizeBtn {
+    margin: 15px 0;
+    background-color: #1f69d2;
+    border: none;
+    outline: none;
+    appearance: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid #1f69d2;
+    transition: all 0.5s linear;
+}
+.insightify-wrapper #summarizeBtn:hover {
+    background-color: #fff;
+    color: #1f69d2;
+    transition: all 0.5s 
+linear;
+}
+.insightify-wrapper  #output ul { padding: 0 0 0 20px; }
+.insightify-wrapper  #output ul li { padding-bottom: 10px; border-bottom: 1px solid #ccc; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+	<div class="insightify-wrapper">
+		<h1>Insightify Tabs</h1>
+		<p class="subtitle">Smart Tab Summarizer</p>
+		<button id="summarizeBtn">Summarize Open Tabs</button>
+		<div id="output" class="output-box"></div>
+	</div>
+  <script src="popup.js"></script>
+</body>
+</html>
