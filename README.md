@@ -17,7 +17,7 @@ Insightify Tabs is a Chrome Extension powered by Chrome’s AI APIs that summari
 2. Open Chrome → `chrome://extensions/`
 3. Enable **Developer Mode**
 4. Click **Load Unpacked** → select `insightify_tabs/`
-5. Click the TabWise icon and enjoy 🚀
+5. Click the Insightify Tabs icon and enjoy 🚀
 
 ## 🎥 Demo Video
 https://youtu.be/eIDsTsPvDsk
