@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Insightify Tabs",
+  "description": "Summarize all open Chrome tabs into a clean digest using Chrome’s Built-in AI.",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
